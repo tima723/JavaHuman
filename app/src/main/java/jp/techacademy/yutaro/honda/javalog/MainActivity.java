@@ -19,7 +19,12 @@ import android.util.Log; // ここを追加
 
             human.say();
             Log.d("javatest", "私の名前は" + human.name + "です。" + "歳は" + human.age + "歳です");
+
+
+
             human.think();
+
+
 
         }
 
