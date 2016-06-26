@@ -15,14 +15,13 @@ import android.util.Log; // ここを追加
 
 
 
-            Human human = new Human("本多", 20);
+            Human human = new Human("本多","パソコン", 20);
 
             human.say();
             Log.d("javatest", "私の名前は" + human.name + "です。" + "歳は" + human.age + "歳です");
 
-
-
             human.think();
+            Log.d("javatest","私は" + human.hobby + "について考えている");
 
 
 
